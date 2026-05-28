@@ -16,7 +16,7 @@ General-purpose AES-256-GCM encryption library for Java with machine-specific ke
 ```xml
 <dependency>
     <groupId>org.flossware</groupId>
-    <artifactId>jencrypt</artifactId>
+    <artifactId>encrypt-java</artifactId>
     <version>1.0</version>
 </dependency>
 ```
@@ -120,8 +120,8 @@ Encrypted data cannot be decrypted on a different machine or user account:
 
 ```bash
 # Clone repository
-git clone https://github.com/FlossWare/jencrypt.git
-cd jencrypt
+git clone https://github.com/FlossWare/encrypt-java.git
+cd encrypt-java
 
 # Build and test
 mvn clean package
@@ -172,5 +172,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 
 ## Support
 
-- Issues: https://github.com/FlossWare/jencrypt/issues
-- Documentation: https://github.com/FlossWare/jencrypt
+- Issues: https://github.com/FlossWare/encrypt-java/issues
+- Documentation: https://github.com/FlossWare/encrypt-java
